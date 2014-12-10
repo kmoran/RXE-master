@@ -1,0 +1,26 @@
+#
+# Exclude general auto-generated files across the board.  Files that are
+# generated in specific sub-directories are not added here, add them in
+# the ".gitignore" file in that subdirectory.
+#
+*.o
+*.o.*
+*.a
+*.s
+*.ko
+*.so
+*.so.dbg
+*.mod.c
+*.i
+*.1st
+*.symtypes
+*.order
+modules.builtin
+*.elf
+*.bin
+*.gz
+*.bz2
+*.lzma
+*.xz
+*.lzo
+*.gcno

@@ -1,0 +1,22 @@
+Introduction
+============
+
+librxe is a userspace driver for a software RoCE implementation.  It works
+as a plug-in module for libibverbs that allows userspace programs to use a
+traditional Ethernet device as a the RoCE link layer.  See the libibverbs
+package for more information.
+
+Using librxe
+============
+
+librxe will be loaded and used automatically by programings linked with
+libibverbs.  The ib_rxe and ib_rxe_net kernel modules must be loaded, and
+a software RoCE device configured via the rxe_cfg utility.
+
+Building
+========
+To make this directory, run:
+./autogen.sh && ./configure && make && make install
+
+Typically the autogen and configure steps only need be done the first time
+unless configure.in or Makefile.am changes.

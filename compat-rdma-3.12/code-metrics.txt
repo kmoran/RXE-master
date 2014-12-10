@@ -1,0 +1,23 @@
+
+[36mcompat-rdma code metrics[00m
+
+[35m    380473[00m - Total upstream lines of code being pulled
+[01;32m      3030[00m - backport code changes
+[01;32m      2634[00m - backport code additions
+[01;32m       396[00m - backport code deletions
+[01;32m     12488[00m - backport from compat module
+[01;32m     15518[00m - total backport code
+[31m    4.0786[00m - % of code consists of backport work
+[01;33m      3076[00m - Code changes brought in from linux-next
+[01;33m      2167[00m - Code additions brought in from linux-next
+[01;33m       909[00m - Code deletions brought in from linux-next
+[31m    0.8085[00m - % of code being cherry picked from linux-next
+[01;33m     63861[00m - Code changes posted but not yet merged
+[01;33m     63086[00m - Code additions posted but not yet merged
+[01;33m       775[00m - Code deletions posted but not yet merged
+[31m   16.7846[00m - % of code not yet merged
+
+Base tree: [01;32munknown[00m
+Base tree version: [35mf9e9918[00m
+compat.git: [36mcompat-2014-01-30-1-g5268562[00m
+compat-rdma release: [01;33mgac916cb-np[00m
